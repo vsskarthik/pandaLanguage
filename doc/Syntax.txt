@@ -1,0 +1,58 @@
+I/O:
+show
+read<type>
+-----------------------------
+Variable:
+x = 12
+y = 12.533
+z = "char"
+-----------------------------
+Conditional:
+
+if(condition)
+.
+.
+.
+end
+
+(or)
+
+if(cond)
+
+else
+	if
+
+
+end
+
+------------------------------
+
+Loops:
+
+For loop:
+for x from 1 to 2
+.
+.
+.
+.
+end
+
+While Loop:
+
+while (condtion)
+.
+.
+.
+end
+
+-----------------------------
+
+Functions:
+
+func <function_name> takes <parameters>
+.
+.
+.
+
+return <any value or leave blank>
+------------------------------
