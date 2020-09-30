@@ -1,7 +1,10 @@
 import os
 from handlers import main as main_handler
+import sys
 
-ip_path = 'test.p'
+
+
+ip_path = sys.argv[1]
 op_path = 'temp.py'
 os.chdir('../../src/converter')
 
