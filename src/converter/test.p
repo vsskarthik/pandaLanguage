@@ -1,5 +1,7 @@
 show("Hello World")
 show("This is Karthik")
 show("Hi All!!! This is Panda Language aimed for the beginners")
-var x = [1,2,3]
-show(x)
+show("Enter the number")
+read(x,int)
+show("Square of the number is: ")
+show(x**2)
