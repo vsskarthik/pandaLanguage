@@ -15,7 +15,7 @@ int main(int argc,char** argv){
   }
   else{
 
-    cout << "Invalid Number of arguments provided.";
+    cout << "[ERROR] Invalid number of arguments provided.";
 
   }
 
