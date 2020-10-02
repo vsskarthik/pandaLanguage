@@ -1,5 +1,6 @@
 from . import io_handler
 from . import var_handler
+from . import cond_handler
 
 def readLine(ip_file,op_file):
     Lines = ip_file.readlines()
@@ -32,5 +33,7 @@ def to_handler(line):
         return io_handler.cvt(line)
     if(line[:3] == "var"):
         return var_handler.cvt(line)
+    if(line[:2] == "if"):
+        return cond_handler.cvt(line)
     else:
         return None
